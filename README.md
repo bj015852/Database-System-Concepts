@@ -1,4 +1,4 @@
-# Data-structure-and-Algorithm
+# Data-structure-and-Algorithms
 
 Some very important data structures and algorithms for database systems, involving __indexing and hashing__, __query processing__ and __query optimization__.
 
