@@ -6,10 +6,18 @@ Implement them using C++ in a very simplified mode. However, there're a very com
 
 ##1. Basic data structures
 
-* Left-leaning red-black tree: A in-memory red-black tree, left-leaning model using recursive method for insertion.
+* Left-leaning red-black tree: A in-memory red-black tree, left-leaning model using recursive insertion mode.
 
-* B Tree: A simple B tree data structure, witch is barely used in real DBMS.
+* B Tree: A simple B tree data structure, witch is barely used in real DBMS. It is worth noting about its insertion and deletion algorithms.
 
-* B+ Tree: B+ tree data structure trying to simulate an ordered indexing shcema.
+* B+ Tree: A complete implementation of B+ tree demon, trying to simulate an ordered, dense indexing schema.
 
 * Dynamic hash table: Dynamic hash structure.
+
+###1.1 Left-leaning red-black tree
+
+
+###1.2 B Tree
+
+###1.3 B+ Tree
+
