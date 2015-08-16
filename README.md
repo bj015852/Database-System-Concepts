@@ -1,6 +1,5 @@
 # Data-structure-and-Algorithm
-
-Including:
+> Some very important data structures involving indexing and hashing for database system.
 
 * Left-leaning red-black tree
 
