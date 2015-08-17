@@ -21,3 +21,7 @@ Implementing them using C++ in a very simplified mode. However, there're a very 
 
 ###1.3 B+ Tree
 
+
+##2. Query Processing
+
+* External merge sort: 
