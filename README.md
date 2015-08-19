@@ -26,7 +26,27 @@ Here, we implement a left-learn red-black tree, which could corrospond to an uni
 
 There is a 1-1 correspondence between red-black BSTs defined in this way and 2-3 trees.
 
-Usage:
+```cpp
+#include <iostream>
+#include "RedBlackTree.hpp"
+
+int main()
+{
+    RBTree<double, unsigned int> rbtree; // value type: double, key type: unsigned int.
+    rbtree.put(2.991, 5);
+    rbtree.put(2.334, 10);
+    rbtree.put(3.112, 8);
+    rbtree.put(-2.21, 13);
+    double* pvalue;
+    pvalue =  rbtree.get(13);
+    if(pvalue)
+        std::cout << *pvalue << std::endl;
+    pvalue = rbtree.get(8);
+    if(pvalue)
+        std::cout << *pvalue << std::endl;
+    return 0;
+}
+```
 
 
 
