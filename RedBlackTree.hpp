@@ -20,6 +20,7 @@ template<typename T, typename KEY> class RBTNode
         RBTNode<T, KEY> *pLeft;
         RBTNode<T, KEY> *pRight;
         RBTNode<T, KEY> *pParent;
+        T *getvalue();
 
     public:
         RBTNode(T v, KEY k, bool c=BLACK): value(v), key(k), color(c) {pLeft = NULL; pRight = NULL; pParent = NULL;}
@@ -34,6 +35,12 @@ template<typename T, typename KEY> void RBTNode<T, KEY>::print() const
     else
         std::cout << "black";
     std::cout << std::endl;
+}
+
+template<typename T, typename KEY> T *RBTNode<T, KEY>::getvalue()
+{
+    T *pvalue = &this->value;
+    return pvalue;
 }
 
 template<typename T, typename KEY> class RBTree
@@ -58,7 +65,7 @@ template<typename T, typename KEY> class RBTree
 
     public:
         // retrieve data from a given key
-        RBTNode<T, KEY> *get(KEY Key);
+        T *get(KEY Key);
         RBTNode<T, KEY> *getmin();
     protected:
         RBTNode<T, KEY> *get(RBTNode<T, KEY> *h, KEY Key);
@@ -103,7 +110,7 @@ template<typename T, typename KEY> void RBTree<T, KEY>::setnull(RBTNode<T, KEY> 
     setnull(h->pLeft);
     setnull(h->pRight);
     {
-        //cout << "delete " << h->key << endl;
+        //std::cout << "delete " << h->key << std::endl;
         delete h;
         h = NULL;
     }
@@ -312,11 +319,12 @@ template<typename T, typename KEY> RBTNode<T, KEY> *RBTree<T, KEY>::deleteone(RB
     return h;
 }
 
-template<typename T, typename KEY> RBTNode<T, KEY> *RBTree<T, KEY>::get(KEY Key)
+template<typename T, typename KEY> T *RBTree<T, KEY>::get(KEY Key)
 {
     if (pRoot)
     {
-        return get(pRoot, Key);
+        RBTNode<T, KEY> *pNode = get(pRoot, Key);
+        return pNode->getvalue();
     }
     else return NULL;
 }
