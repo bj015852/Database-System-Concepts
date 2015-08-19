@@ -18,7 +18,7 @@ Implementing them using C++ in a very simplified mode. However, there're a very 
 
 Actually, red-black tree is commonly used in in-memory databases rather than in relational databases, because of its binary tree property. Red-black tree is a kind of balanced search tree, which has a trade-off between the balance operation and cost, on account of maintaining a perfect balance for dynamic insertions or deletions is too expensive.
 
-Here, we implement a left-learn red-black tree, which could corrospond to an unique format perfectly balanced 2-3 search tree. The property of left-learn red-black tree is as following:
+Here, we implement a left-learn red-black tree, which could corrospond to an unique format perfectly balanced 2-3 search tree. The properties of left-learn red-black tree are as following:
 
 * Red links lean left.
 * No node has two red links connected to it.
