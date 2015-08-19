@@ -16,7 +16,7 @@ Implementing them using C++ in a very simplified mode. However, there're a very 
 
 ###1.1 Left-leaning red-black tree
 
-Acturally, red-black tree is commonly used in in-memory databases rather than in relational databases, because of its binary tree property. Red-black tree is a kind of balanced search tree, which has a trade-off between the balance operation and cost, on account of maintaining a perfect balance for dynamic insertions or deletions is too expensive.
+Actually, red-black tree is commonly used in in-memory databases rather than in relational databases, because of its binary tree property. Red-black tree is a kind of balanced search tree, which has a trade-off between the balance operation and cost, on account of maintaining a perfect balance for dynamic insertions or deletions is too expensive.
 
 Here, we implement a left-learn red-black tree, which could corrospond to an unique format perfectly balanced 2-3 search tree. The property of left-learn red-black tree is as following:
 
@@ -25,6 +25,10 @@ Here, we implement a left-learn red-black tree, which could corrospond to an uni
 * The tree has perfect black balance : every path from the root to a null link has the same number of black links.
 
 There is a 1-1 correspondence between red-black BSTs defined in this way and 2-3 trees.
+
+Usage:
+
+
 
 
 ###1.2 B Tree
