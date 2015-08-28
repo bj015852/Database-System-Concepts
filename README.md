@@ -1,8 +1,8 @@
-# Data-structures-and-Algorithms
+# Database system concepts and implementation
 
-Some very important data structures and algorithms for database systems, involving __indexing and hashing__, __query processing__ and __query optimization__.
+Some very important data structures, algorithms and techniques for database systems, focusing on database implementation, involving __indexing and hashing__, __query processing__, __query optimization__, __transactions__, __concurrency control__, and etc.
 
-Implementing them using C++ in a very simplified mode. However, there're a very complicated schema in real DBMS.
+Implementing them using C++ in a simplified and intuitive mode. However, it's a real complicated work in real DBMS.
 
 ##1. Basic data structures
 
