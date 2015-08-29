@@ -1,6 +1,6 @@
 # Database system concepts and implementation
 
-Some very important data structures, algorithms and techniques for database systems, focusing on database implementation, involving __indexing and hashing__, __query processing__, __query optimization__, __transactions__, __concurrency control__, and etc.
+This article is focusing on database implementation, introducing some very important data structures, algorithms and techniques for database systems, involving __indexing and hashing__, __query processing__, __query optimization__, __transactions__, __concurrency control__, and etc.
 
 Implementing them using C++ in a simplified and intuitive mode. However, it's a real complicated work in real DBMS.
 
