@@ -6,7 +6,7 @@ Implementing them using C++ in a simplified and intuitive mode. However, it's a 
 
 ##1. Basic data structures
 
-* Left-leaning red-black tree: A in-memory red-black tree, left-leaning model using recursive insertion mode, which is introduced in _Algorithms Fourth Edition_ by _Robert Sedgewick_ and _Kevin Wayne_.
+* Left-leaning red-black tree: A in-memory red-black tree, left-leaning model using recursive insertion mode, which is introduced in Sedgewick [2011].
 
 * B Tree: A simple B tree data structure, witch is barely used in real DBMS. It is worth noting about its insertion and deletion algorithms.
 
@@ -59,3 +59,13 @@ int main()
 ##2. Query Processing
 
 * External merge sort: 
+
+
+
+
+## Bibliography
+
+__[Sedgewick 2011]__    Robert Sedgewick, Kevin Wayne, _Algorithms Fourth Edition_ (2011)
+
+__[Silberschatz 2010]__    Abraham Silberschatz, Henry F. Korth, S. Sudarshan, _Database System Concepts(Sixth Edition)_ (2010)
+
