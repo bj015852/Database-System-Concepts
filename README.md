@@ -2,9 +2,11 @@
 
 This article is focusing on database implementation, introducing some very important data structures, algorithms and techniques for database systems. The database system involves two main aspects: __Data Storage and Querying__ and __Transaction Management__. The former contains __indexing and hashing__, __query processing__ and __query optimization__, while the latter includes __transactions__, __concurrency control__, and etc.
 
-All the codes are implemented using C++ in a simplified and intuitive mode. However, that's a real complicated work in real DBMS.
+All relative concepts are mainly inspired by Silberschatz [2010]. All the codes are implemented using C++ in a simplified and intuitive mode. However, that's a real complicated work in real DBMS.
 
-##1. Basic data structures
+## Data Storage and Querying
+
+###1. indexing and hashing
 
 * Left-leaning red-black tree: A in-memory red-black tree, left-leaning model using recursive insertion mode, which is introduced in Sedgewick [2011].
 
@@ -14,7 +16,7 @@ All the codes are implemented using C++ in a simplified and intuitive mode. Howe
 
 * Dynamic hash table: Dynamic hash structure.
 
-###1.1 Left-leaning red-black tree
+####1.1 Left-leaning red-black tree
 
 Actually, red-black tree is commonly used in in-memory databases rather than in relational databases, because of its binary tree property. Red-black tree is a kind of balanced search tree, which has a trade-off between the balance operation and cost, on account of maintaining a perfect balance for dynamic insertions or deletions is too expensive.
 
@@ -51,16 +53,17 @@ int main()
 
 
 
-###1.2 B Tree
+####1.2 B Tree
 
-###1.3 B+ Tree
+####1.3 B+ Tree
 
 
-##2. Query Processing
+###2. Query Processing
 
 * External merge sort: 
 
 
+## Transaction Management
 
 
 ## Bibliography
