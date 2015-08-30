@@ -72,3 +72,4 @@ __[Sedgewick 2011]__    Robert Sedgewick, Kevin Wayne, _Algorithms Fourth Editio
 
 __[Silberschatz 2010]__    Abraham Silberschatz, Henry F. Korth, S. Sudarshan, _Database System Concepts(Sixth Edition)_ (2010)
 
+__[Cormen 2009]__    Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, _Introduction to Algorithms(Third Edition)_ (2009)
